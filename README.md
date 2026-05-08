@@ -189,6 +189,9 @@ $body = @{ product_id = 1 } | ConvertTo-Json
 Invoke-RestMethod -Method Post -Uri http://127.0.0.1:5000/cart/items `
   -ContentType "application/json" -Body $body
 
+# Ver carrito
+Invoke-RestMethod -Method Get -Uri http://127.0.0.1:5000/cart
+
 # Quitar del carrito
 Invoke-RestMethod -Method Delete -Uri http://127.0.0.1:5000/cart/items/1
 
