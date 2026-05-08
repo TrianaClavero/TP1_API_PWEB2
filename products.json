@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Product A",
+            "price": 19.99,
+            "description": "A high-quality product that meets your needs."
+        },
+        {
+            "id": 2,
+            "name": "Product B",
+            "price": 29.99,
+            "description": "An excellent choice for those looking for value."
+        },
+        {
+            "id": 3,
+            "name": "Product C",
+            "price": 39.99,
+            "description": "A premium product for discerning customers."
+        }
+    ]
+}
